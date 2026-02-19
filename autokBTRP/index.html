@@ -16,8 +16,8 @@
     <title>Régi Autók</title>
   </head>
   <body>
-    <main>
-      <header><h1>Régi autók</h1></header>
+    <main class="row">
+      <header><h1  class="text-success">Régi autók</h1></header>
       <!-- Grey with black text -->
       <nav class="navbar navbar-expand-sm bg-success navbar-dark">
         <div class="container-fluid">
@@ -35,11 +35,12 @@
         </div>
       </nav>
 
-      <article>
-        <div>
-          <div>
-            <h2>Karl Benz</h2>
+      <article class="col-8 row gy-3">
+       
+          <div class="card col-6">
+            <h2 class="text-success">Karl Benz</h2>
             <img
+              class="col-12 img-thumbnail"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Carl-Benz_coloriert.jpg/500px-Carl-Benz_coloriert.jpg"
               alt="kép"
             />
@@ -50,11 +51,12 @@
               tökéletesítette a villanygyújtást is.
             </p>
           </div>
-          <div>
-            <h2>Henry Ford</h2>
+          <div class="card col-6">
+            <h2 class="text-success">Henry Ford</h2>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Henry_ford_1919.jpg/500px-Henry_ford_1919.jpg"
               alt="kép"
+              class="col-12 img-thumbnail"
             />
             <p>
               Termékeny feltalálónak számított, nevéhez 161 amerikai szabadalom
@@ -64,24 +66,30 @@
               iparát is forradalmasította.
             </p>
           </div>
-        </div>
+        
       </article>
-      <aside>
+      <aside class="col-4 row">
+        <div>
         <img
           src="https://megaport.hu/media/king-include/uploads/2020/01/1936-auburn-slowburn-2427736380.jpg"
           alt="kép"
+          class="img-thumbnail"
         />
+        </div>
         <img
           src="https://megaport.hu/media/king-include/uploads/2020/01/1953-buick-skylark-skyscraper-8564903811.jpg"
           alt="kép"
+          class="img-thumbnail"
         />
         <img
           src="https://megaport.hu/media/king-include/uploads/2020/01/1948-jaguar-black-pearl-4605095127.jpg"
           alt="kép"
+          class="img-thumbnail"
         />
         <img
           src="https://megaport.hu/media/king-include/uploads/2020/01/1937-lincoln-zephyr-voodoo-priest-6043163337.jpg"
           alt="kép"
+          class="img-thumbnail"
         />
       </aside>
       <footer>Finta Károly</footer>
